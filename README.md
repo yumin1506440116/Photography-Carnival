@@ -1,2 +1,2 @@
 # Photography-Carnival
-This is a website about Phyotograph.
+This is a website about Phyotograph..
