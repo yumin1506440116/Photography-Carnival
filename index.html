@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>摄影嘉年华</title>
     <link rel="stylesheet" href="css/sy.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
 </head>
-<body>
     <body background="#28004D">
     <div id="header">
         <div id="top">
@@ -39,7 +42,35 @@
         </div>
     </div>
 </div>
+
 <div id="container" background="#28004D">
+
+    <div class="container-fuild">
+      <div id="scroll" class="scroll">
+         <div id="my" class="carousel slide">
+             <ol class="carousel-indicators">
+                 <li data-target="#my" data-slide-to="0" class="active"></li>
+                 <li data-target="#my" data-slide-to="1"></li>
+                 <li data-target="#my" data-slide-to="2"></li>
+                 <li data-target="#my" data-slide-to="3"></li>
+             </ol>
+                 <div class="carousel-inner">
+                    <div class="item active"><img src="img/1.jpg" alt="0"></div>
+                    <div class="item"><img src="img/2.jpg" alt="1"></div>
+                    <div class="item"><img src="img/3.jpg" alt="2"></div>
+                    <div class="item"><img src="img/4.jpg" alt="3"></div>
+                 </div>
+             <a href="#my" class="carousel-control left" data-slide="next">
+                <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+             </a>
+             <a href="#my" class="carousel-control right" data-slide="next">
+                <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+             </a>
+            </div>
+        </div>
+
+             <script src="js/jquery.min.js"></script>
+             <script src="js/bootstrap.min.js"></script>
 </div>
 <div id="footer">
     <div class="copyright">copyright © 2018 ·摄影嘉年华·<a href="#" title="联系我们">联系我们

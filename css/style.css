@@ -1,0 +1,48 @@
+            *
+            /*滚动条*/
+.container-fuild
+{
+    height: 452px;
+    width: 1000px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 166px;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+.scroll{
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    
+
+    overflow: hidden;
+    position: relative;
+}
+
+.scroll ol{
+    position: absolute;
+    bottom: -5px;
+    margin-left: -300px;
+    
+
+}
+.scroll ol li
+{
+    
+    width: 10px;
+    height: 10px;
+    
+    
+    line-height: 20px;
+    border-radius: 50%;
+                    
+    
+}
+.scroll ol li.current{
+    background-color: purple;
+}
