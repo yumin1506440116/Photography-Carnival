@@ -1,3 +1,4 @@
+  
             *
             /*滚动条*/
 .container-fuild
@@ -45,4 +46,162 @@ img{
 }
 .scroll ol li.current{
     background-color: purple;
+}
+/*文章和热门标题的大边框*/
+#mainbox
+{
+    overflow:hidden;
+}
+    /*文章    */
+.mainbox{
+    width: 672px;
+    margin-left: 166px;
+    float: left;
+    margin-top: 5px;
+    background: #28004D;
+    
+
+}
+body,h1,h2,h3,h4,h5,h6,p,img
+{
+    margin:0;
+    padding:0;
+    }
+
+h1,h2,h3,h4,h5,h6
+{
+    font-size:100%
+    }
+
+a
+{
+    text-decoration:none;
+}
+a:hover
+{
+    text-decoration: none;
+     color: 	#d3a4ff;
+}
+
+
+.postbox
+{
+    background:#28004D;
+    width:670px;
+    }
+
+.postlist
+{
+    width:660px;margin-top:10px;
+    position: relative;
+    padding:0 10px;
+    height:160px;
+    }
+.post_img 
+{
+    float:left;
+    width:200px;
+    height:150px;
+    }
+.post_img:hover
+{
+    transition:all ease-in-out .4s; 
+    transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+}
+.post_con 
+{
+    float:right;
+    width:420px;
+    height:150px;
+    }
+.post_con h2 
+{
+    font-size:20px;
+    padding:0 0 5px;
+}
+.thumbnail
+{
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: 	#4B0091;
+    border: 1px solid 	#4B0091;
+    border-radius: 4px;
+    transition: border .2s ease-in-out;
+
+}
+.post_con p 
+{
+    font-size:14px;
+    line-height:30px;
+    
+    color:#d3a4ff;
+    }
+.post_con p:hover
+{
+    text-decoration: none;
+    color: 	#F1E1FF;
+    }
+.post-date,.post-cats,.post-comments
+{
+    display: inline-block;
+    margin-right: 10px;
+    }
+
+.more-link 
+{
+    padding:0 5px;
+    color: white;
+    background-color: #24241F;
+    text-decoration: none;
+    float: left;margin-top:7px;
+    box-shadow: 1px 1px 1px 0px #24241F;
+    }
+
+#pagination 
+{
+    padding:20px 10px;
+    width:610px;
+    }
+#pagination a
+{
+    background:#fafafa;
+    display: block;
+    line-height: 35px;
+    height:38px;
+    text-align: center;
+    font-size: 16px;
+    color:#333;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 0px #eaeaea;
+    }
+#pagination a:hover
+{
+    background:	#BE77FF;
+    color:#fff;
+    }
+#loadmore
+{
+    clear:both;
+    float:left;
+    padding:20px 0;
+    width:610px;
+    display:none;
+    }
+#loadmore a
+{
+    display: block;
+    line-height: 35px;
+    height:38px;text-align: center;
+    font-size: 16px;
+    background:#fafafa;
+    color: #333;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;overflow: hidden;
+    box-shadow: 1px 1px 1px 0px #eaeaea;
 }
