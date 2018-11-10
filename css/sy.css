@@ -10,7 +10,7 @@
     width: 1000px;
     margin: 0 auto;
     position: relative;
-    height: 148px;
+    height: 130px;
 
 }
 /**logo **/
@@ -20,7 +20,7 @@
     color: 	#DCB5FF;
     font-size: 30px;
     list-style: none;
-   padding-top: 10px;
+   padding-top: 15px;
    font-family: 宋体;
    letter-spacing: 5px;
 
@@ -28,7 +28,7 @@
 .log p
 {
     color: 	#DCB5FF;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 15px;
     margin-left: 95px;
      font-family: 宋体;
@@ -49,8 +49,8 @@
 {
     color: #CA8EFF;
     width: 220px;
-    height: 20px;
-    line-height: 20px;
+    height: 24px;
+    line-height: 24px;
     vertical-align: middle;
     background: #fff;
     color:#CA8EFF;
@@ -60,14 +60,14 @@
 #searchbox .button
 {
     width: 70px;
-    height: 20px;
+    height: 24px;
     vertical-align: middle;
-    line-height: 20px;
+    line-height: 24px;
     cursor: pointer;
     border: none;
     background: #fff;
     color: #CA8EFF;
-    font-size: 16px;
+    font-size: 17px;
     border-left:#d3a4ff 1px solid;
 }
 #searchbox .searchtip
@@ -130,7 +130,7 @@
 {
    background: #28004D;
    min-width: 1000px;
-  
+   
    margin: 0 auto;
    border-top:1px #3A006F solid;
    
