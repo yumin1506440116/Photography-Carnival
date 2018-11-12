@@ -41,7 +41,47 @@
     -webkit-transition-duration: 0.7s;
     
 }
-
+/**search **/
+#searchbox
+{
+    display: inline-block;
+    overflow: hidden;
+    
+    float: right;
+    border-radius: 2px;
+    background: #fff;
+    border: #dbdbdb 1px solid;
+}
+#searchbox .textfield
+{
+    color: #CA8EFF;
+    width: 220px;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: middle;
+    background: #fff;
+    color:#CA8EFF;
+    font-size: 12px;
+    border-left: #dbdbdb 1px solid;
+}
+#searchbox .button
+{
+    width: 70px;
+    height: 24px;
+    vertical-align: middle;
+    line-height: 24px;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+    color: #CA8EFF;
+    font-size: 17px;
+    border-left:#d3a4ff 1px solid;
+}
+#searchbox .searchtip
+{
+    color:#CA8EFF;
+    background: #FDFDFD;
+}
 
 /**header navi **/
 .wrap
