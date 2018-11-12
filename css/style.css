@@ -1,0 +1,113 @@
+
+            *
+            /*滚动条*/
+.container-fuild
+{
+    height: 452px;
+    width: 1000px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 166px;
+}
+
+/*文章和热门标题的大边框*/
+#mainbox
+{
+    overflow:hidden;
+}
+    /*文章    */
+.mainbox{
+    width: 672px;
+    margin-left: 166px;
+    float: left;
+    margin-top: 5px;
+    background: #28004D;
+    
+
+}
+
+/*标签*/
+.sidebox
+{
+    width: 300px;
+    float: right;
+    margin-right: 155px;
+
+}
+.box
+{
+    border: 1px 	#8600FF solid;
+    margin-top: 10px;
+    width:310px;
+   margin-bottom: 20px;
+    overflow:hidden;
+    
+}
+.box h3
+{
+  font-size: 18px;
+  margin-left: 10px;
+  color:snow;
+  padding: 15px;
+  font-weight: blod;
+}
+
+
+ ul
+{
+   list-style: none;
+    padding: 0px;
+}  
+li
+{
+   margin-left: 15px;
+   padding: 0px;
+   float: left;
+
+}
+.tagcloudy a 
+{
+    border-radius: 5px;
+    padding: 3px 6px;
+    font-size: 14px;
+    background-color: #F7F7F7;
+    display: inline-block;
+    transition: .2s;
+    margin:0 10px 10px 0;
+    text-decoration: none;
+    color: #555;
+    
+    }
+.tagcloudy a:hover
+{
+    background:	#F1E1FF;
+    color:	#d3a4ff;
+    }
+a
+{
+    text-decoration: none;
+    color:	#E6CAFF;
+    
+
+}
+/*评论区*/
+.comments
+{
+    margin: 5px;
+}
+.comments ul
+{
+    list-style: none;
+}
+.comments ul li
+{
+     padding: 5px;
+     line-height: 20px;
+     
+}
+.comments ul li p{
+    font-size: 18px;
+    color: 	#BE77FF;
+    margin-bottom: 10px;
+   
+}
