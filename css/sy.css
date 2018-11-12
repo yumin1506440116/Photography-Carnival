@@ -23,17 +23,24 @@
    padding-top: 15px;
    font-family: 宋体;
    letter-spacing: 5px;
+   margin: 0 0 -10px -630px;
+   text-align: center;
 
 }
-.log p
-{
-    color: 	#DCB5FF;
-    font-size: 24px;
-    letter-spacing: 15px;
-    margin-left: 95px;
-     font-family: 宋体;
+.beat-char {
+    position: relative;
+    display: inline-block;
+    background: transparent;
 }
-
+.rotate{
+    transform:rotate(360deg) ;
+    -ms-transform:rotate(360deg);   /* IE 9 */
+    -moz-transform:rotate(360deg);  /* Firefox */
+    -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+    -o-transform:rotate(360deg);
+    -webkit-transition-duration: 0.7s;
+    
+}
 
 
 /**header navi **/
